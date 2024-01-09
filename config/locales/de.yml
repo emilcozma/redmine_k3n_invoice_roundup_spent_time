@@ -1,0 +1,20 @@
+# German strings go here for Rails i18n
+de:
+  field_invoice_hours: Rechnungsstunden
+  field_offer_hours: Angebot an Kunde
+  field_issue_invoice_hours: Rechnung Kunde
+
+  field_comments: "erbrachte Leistung(en)"
+
+  k3n_invoice_roundup_spent_time:
+    # Please don't forget to translate the plugin name.
+    plugin_name: "Keeen invoice roundup spent time."
+    need_rest_api: "Bitte prüfen Sie ob 'REST-Schnittstelle aktivieren' in Redmine unter Administration/Konfiguration/API aktiviert ist."
+    comment_dialog_title: "Bearbeiten"
+
+    field_hours: Stunden
+    field_invoice_hours: Rechnungsstunden
+    field_comments: "erbrachte Leistung(en)"
+
+    commit: "Buchen"
+    close: "Beenden"

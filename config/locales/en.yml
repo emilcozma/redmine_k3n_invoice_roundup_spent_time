@@ -1,0 +1,21 @@
+# English strings go here for Rails i18n
+en:
+  field_invoice_hours: Invoice hours
+  field_total_invoice_hours: Total invoice hours
+  field_offer_hours: Offer hours to customer
+  field_issue_invoice_hours: Invoice hours to customer
+
+  field_comments: "Delivered services"
+
+  k3n_invoice_roundup_spent_time:
+    # Please don't forget to translate the plugin name.
+    plugin_name: "Keeen invoice roundup spent time."
+    need_rest_api: "Please check that 'Enable REST web service' is\nenabled in Redmine Administration/Settings/API."
+    comment_dialog_title: "Edit"
+    
+    field_hours: Hours
+    field_invoice_hours: Invoice hours
+    field_comments: "Delivered services"
+
+    commit: "Save"
+    close: "Close"

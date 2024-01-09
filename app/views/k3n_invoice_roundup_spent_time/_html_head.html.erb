@@ -1,0 +1,17 @@
+<% if User.current.logged? %>
+<!-- [k3n_invoice_roundup_spent_time] -->
+<%= stylesheet_link_tag 'application.css', :plugin => 'k3n_invoice_roundup_spent_time', :media => 'screen' %>
+<%= javascript_include_tag 'application.js', :plugin => 'k3n_invoice_roundup_spent_time' %>
+<%= javascript_tag do %>
+	K3nInvoiceRoundupSpentTime.setPlugin(<%= Redmine::Plugin.find(:k3n_invoice_roundup_spent_time).to_json.html_safe %>);
+	K3nInvoiceRoundupSpentTime.setLang(<%= t(:k3n_invoice_roundup_spent_time).to_json.html_safe %>);
+	K3nInvoiceRoundupSpentTime.setUserId(<%= User.current.id.to_json.html_safe %>);
+	K3nInvoiceRoundupSpentTime.setApiKey(<%= (Setting.rest_api_enabled? ? User.current.api_key : nil).to_json.html_safe %>);
+	K3nInvoiceRoundupSpentTime.setApiUrl(<%= url_for({:controller => 'k3n_invoice', :action => 'update', :id => 'XXX', :format => 'json'}).to_json.html_safe %>);
+	K3nInvoiceRoundupSpentTime.setLanguage(<%= User.current.language.to_json.html_safe %>);
+	$(document).ready(function() {
+		K3nInvoiceRoundupSpentTime.init();
+	});
+<% end %>
+<!-- [k3n_invoice_roundup_spent_time] -->
+<% end %>

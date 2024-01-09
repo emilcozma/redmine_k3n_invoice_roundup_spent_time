@@ -1,0 +1,10 @@
+require 'k3n_invoice_roundup_spent_time/patches/issue_patch'
+require 'k3n_invoice_roundup_spent_time/patches/time_entry_patch'
+require 'k3n_invoice_roundup_spent_time/patches/time_entry_query_patch'
+require 'k3n_invoice_roundup_spent_time/patches/query_patch'
+
+require 'k3n_invoice_roundup_spent_time/patches/issues_helper_patch'
+require 'k3n_invoice_roundup_spent_time/patches/queries_helper_patch'
+
+require 'k3n_invoice_roundup_spent_time/hooks/assets_hook'
+require 'k3n_invoice_roundup_spent_time/hooks/k3n_invoice_time_hook_view_users'

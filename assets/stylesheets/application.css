@@ -1,0 +1,26 @@
+.edit-time-entry-ajax { }
+.edit-time-entry-ajax input.edit-time-entry-ajax-input { margin-right:0; min-width:0 !important; }
+.edit-time-entry-ajax .fa.fa-check { cursor:pointer; }
+.edit-time-entry-ajax .fa.fa-check:before { color:#4f9641 !important; }
+.edit-time-entry-ajax .fa:before { margin-right:0; }
+.edit-time-entry-ajax .fa.fa-ban { cursor:pointer; margin-left:0.2rem; }
+.edit-time-entry-ajax .fa.fa-ban:before { color:#c00 !important; }
+
+.new_time_entry .box > p > label { width:10%; }
+.new_time_entry .box textarea.text_cf { width:86%; }
+.new_time_entry .box .check_box_group { width:86%; clear:right; }
+
+.edit_issue .box > fieldset.tabular { padding-left:0; padding-right:0; }
+.edit_issue .box > fieldset.tabular > p { padding-left:0; padding-right:0; }
+.edit_issue .box > fieldset.tabular > p > label { width:14%; margin-left:0 !important; }
+.edit_issue .box > fieldset.tabular textarea.text_cf { width:84%; max-width:84% !important; padding:0.5%; float:right; }
+.edit_issue .box > fieldset.tabular .check_box_group { width:84%; padding:0.5%; clear:right; float:right; }
+.edit_issue .box > fieldset { padding-left:0; padding-right:0; }
+.edit_issue .issue_spent_time_box { padding:9.75px !important; border:1px solid #e6eaef !important; background:#f4f7f8; }
+
+div.spent_time_comment_dialog.ui-dialog .spent_time_comment_form table td { vertical-align:top; }
+div.spent_time_comment_dialog.ui-dialog .spent_time_comment_form #time_entry_hours { font-size:1em !important; padding:0.2em 0.5em; }
+div.spent_time_comment_dialog.ui-dialog .spent_time_comment_form #time_entry_invoice_hours { font-size:1em !important; padding:0.2em 0.5em; }
+div.spent_time_comment_dialog.ui-dialog .spent_time_comment_form #time_entry_comment { width:100%; font-size:1em !important; padding:0.2em 0.5em; }
+div.spent_time_comment_dialog.ui-dialog .spent_time_comment_form #time_entry_intern_comment { width:100%; font-size:1em !important; padding:0.2em 0.5em; }
+div.spent_time_comment_dialog.ui-dialog .ui-dialog-buttonset .ui-button-text-icon-primary .ui-button-text { padding-left:0; }
